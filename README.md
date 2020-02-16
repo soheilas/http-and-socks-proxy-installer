@@ -1,4 +1,4 @@
-# http-and-socks-proxy-installer
+#HTTP & SOCKS5 INSTALLER
 Fast installer http squid and Socks5 Proxy
 
 
