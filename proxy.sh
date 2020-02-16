@@ -131,13 +131,12 @@ EOT
 # And we have a little bit problem with this message from `systemctl status danted.service`
 #               danted.service: Failed to read PID from file /var/run/danted.pid: Invalid argument
 systemctl restart danted.service
-
+clear
 #information
-echo "--------------------------------------------------------------------------------------------------"
-echo "--------------------------------------------------------------------------------------------------"
-echo "--------------------------------------------------------------------------------------------------"
+echo "-------------------------------"
 echo "Proxy IP: $external_ip"
 echo "HTTP port: 9099"
 echo "SOCKS5 port: 9098"
 echo "Username: $username"
 echo "Password: $password"
+echo "-------------------------------"
